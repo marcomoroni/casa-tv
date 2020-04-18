@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'TT Commons';
+	src: url('fonts/TTCommons-Medium.woff') format('woff');
+}
+
+* {
+    font-family: 'TT Commons';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.main-container {
+	/*display: grid;*/
+	height: 100vh;
+	background-color: black;
+}
+
+.main-container-top {
+	height: 38%;
+}
+
+.main-container-bottom {
+	
+}
+
+.main-container-middle {
+	height: auto;
+}
+
+.time-text {
+	font-size: 4rem;
+	/*font-variant-numeric: tabular-nums;*/
+	margin: 0;
+	text-align: center;
+	/* color: #1c1c1c; */
+	color: #545454;
+}
+
+.date-text {
+	font-size: 1.5rem;
+	margin: 0;
+	text-align: center;
+	/* color: #1c1c1c; */
+	color: #545454;
+}
